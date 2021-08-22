@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "start": "npx nodemon server.js"
+  },
+  "name": "daily_reminder_api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
